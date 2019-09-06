@@ -3,11 +3,11 @@ entries:
   proctor-service:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-09-06T11:53:02.601094+07:00"
+    created: "2019-09-06T15:03:44.761676+07:00"
     description: A Helm chart for Kubernetes
-    digest: dff410e560b91ab5dc43ac6b32a0a80b0965e3750133830f8c74cdbfd10c52ba
+    digest: 11617ea68efcf824c6239e90574029dfee5f261eeb3aeec03df4673213f4444c
     name: proctor-service
     urls:
     - https://walbertus.github.io/proctor-helm-packages/proctor-service-0.1.0.tgz
     version: 0.1.0
-generated: "2019-09-06T11:53:02.600399+07:00"
+generated: "2019-09-06T15:03:44.758623+07:00"
