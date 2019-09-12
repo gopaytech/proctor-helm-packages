@@ -3,7 +3,16 @@ entries:
   proctor-service:
   - apiVersion: v1
     appVersion: 2.0.0-beta3
-    created: "2019-09-11T11:10:48.185814822Z"
+    created: "2019-09-12T09:09:30.865495284Z"
+    description: A Helm chart for Proctor service deployment on Kubernetes
+    digest: 2f9beb0f7b5ad4c749d6ce965d244f49334ec03cc31777b2fd61a8a722aadf70
+    name: proctor-service
+    urls:
+    - https://walbertus.github.io/proctor-helm-packages/proctor-service-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v1
+    appVersion: 2.0.0-beta3
+    created: "2019-09-12T09:09:30.864830513Z"
     description: A Helm chart for Proctor service deployment on Kubernetes
     digest: f64610b35e105372bf14dbe84a814e3c37a9807bcf3b1b741624e520bac4107b
     name: proctor-service
@@ -12,7 +21,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 2.0.0-beta3
-    created: "2019-09-11T11:10:48.185116116Z"
+    created: "2019-09-12T09:09:30.86418834Z"
     description: A Helm chart for Proctor service deployment on Kubernetes
     digest: 619a8d9508db1c919013ade6962187d6e2f3d1af4e2f2998ad4a550bbf13a1da
     name: proctor-service
@@ -21,7 +30,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 2.0.0-beta3
-    created: "2019-09-11T11:10:48.184451567Z"
+    created: "2019-09-12T09:09:30.863590969Z"
     description: A Helm chart for Proctor service deployment on Kubernetes
     digest: 29e6901f6d43caf1f1319fd03ae193ac22fb4558dd2515691e48ed4ca56edc1d
     name: proctor-service
@@ -30,7 +39,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 2.0.0-beta3
-    created: "2019-09-11T11:10:48.18372011Z"
+    created: "2019-09-12T09:09:30.862975757Z"
     description: A Helm chart for Proctor service deployment on Kubernetes
     digest: 1b1fba71b58a365f7e8f919b1978f84a48ccc69786ddf54eb3f3af467a1f5aae
     name: proctor-service
@@ -39,11 +48,11 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-09-11T11:10:48.183027176Z"
+    created: "2019-09-12T09:09:30.862312006Z"
     description: A Helm chart for Kubernetes
     digest: 11617ea68efcf824c6239e90574029dfee5f261eeb3aeec03df4673213f4444c
     name: proctor-service
     urls:
     - https://walbertus.github.io/proctor-helm-packages/proctor-service-0.1.0.tgz
     version: 0.1.0
-generated: "2019-09-11T11:10:48.181866326Z"
+generated: "2019-09-12T09:09:30.861015558Z"
