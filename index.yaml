@@ -2,8 +2,26 @@ apiVersion: v1
 entries:
   proctor-service:
   - apiVersion: v1
+    appVersion: 2.0.5
+    created: "2020-01-15T03:56:51.621991606Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 7.0.2
+    - condition: redis.enabled
+      name: redis
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 9.5.x
+    description: A Helm chart for Proctor service deployment on Kubernetes
+    digest: 2ca3749172b5eabbf02d0773ee0247986655f9ffec4fada2e07f54495ef48cc2
+    name: proctor-service
+    urls:
+    - https://gopaytech.github.io/proctor-helm-packages/proctor-service-3.0.6.tgz
+    version: 3.0.6
+  - apiVersion: v1
     appVersion: 2.0.0
-    created: "2019-11-20T07:11:45.713820451Z"
+    created: "2020-01-15T03:56:51.616783692Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -21,7 +39,7 @@ entries:
     version: 3.0.3
   - apiVersion: v1
     appVersion: 2.0.0-rc2
-    created: "2019-11-20T07:11:45.706027395Z"
+    created: "2020-01-15T03:56:51.610262364Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -39,7 +57,7 @@ entries:
     version: 3.0.2
   - apiVersion: v1
     appVersion: 2.0.0-rc2
-    created: "2019-11-20T07:11:45.701599942Z"
+    created: "2020-01-15T03:56:51.606714673Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -57,7 +75,7 @@ entries:
     version: 3.0.1
   - apiVersion: v1
     appVersion: 2.0.0-rc2
-    created: "2019-11-20T07:11:45.696718111Z"
+    created: "2020-01-15T03:56:51.603176788Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -75,7 +93,7 @@ entries:
     version: 3.0.0
   - apiVersion: v1
     appVersion: 2.0.0-beta3
-    created: "2019-11-20T07:11:45.688023689Z"
+    created: "2020-01-15T03:56:51.596728151Z"
     description: A Helm chart for Proctor service deployment on Kubernetes
     digest: 29e05c9e6583fcec300ed1879a09827109bdaa251e32823775ec64f2d49f5d1c
     name: proctor-service
@@ -84,7 +102,7 @@ entries:
     version: 2.0.2
   - apiVersion: v1
     appVersion: 2.0.0-beta3
-    created: "2019-11-20T07:11:45.687083393Z"
+    created: "2020-01-15T03:56:51.596010366Z"
     description: A Helm chart for Proctor service deployment on Kubernetes
     digest: b1179651cbe7fb83b4bdf6dac89d2f95e3be7ae26119d9c4099245df1638a861
     name: proctor-service
@@ -93,7 +111,7 @@ entries:
     version: 2.0.1
   - apiVersion: v1
     appVersion: 2.0.0-beta3
-    created: "2019-11-20T07:11:45.686038494Z"
+    created: "2020-01-15T03:56:51.595221475Z"
     description: A Helm chart for Proctor service deployment on Kubernetes
     digest: 2f9beb0f7b5ad4c749d6ce965d244f49334ec03cc31777b2fd61a8a722aadf70
     name: proctor-service
@@ -102,7 +120,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 2.0.0-beta3
-    created: "2019-11-20T07:11:45.685046555Z"
+    created: "2020-01-15T03:56:51.594485144Z"
     description: A Helm chart for Proctor service deployment on Kubernetes
     digest: f64610b35e105372bf14dbe84a814e3c37a9807bcf3b1b741624e520bac4107b
     name: proctor-service
@@ -111,7 +129,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 2.0.0-beta3
-    created: "2019-11-20T07:11:45.684071601Z"
+    created: "2020-01-15T03:56:51.593756165Z"
     description: A Helm chart for Proctor service deployment on Kubernetes
     digest: 619a8d9508db1c919013ade6962187d6e2f3d1af4e2f2998ad4a550bbf13a1da
     name: proctor-service
@@ -120,7 +138,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 2.0.0-beta3
-    created: "2019-11-20T07:11:45.683077709Z"
+    created: "2020-01-15T03:56:51.593064702Z"
     description: A Helm chart for Proctor service deployment on Kubernetes
     digest: 29e6901f6d43caf1f1319fd03ae193ac22fb4558dd2515691e48ed4ca56edc1d
     name: proctor-service
@@ -129,7 +147,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 2.0.0-beta3
-    created: "2019-11-20T07:11:45.681994197Z"
+    created: "2020-01-15T03:56:51.592371832Z"
     description: A Helm chart for Proctor service deployment on Kubernetes
     digest: 1b1fba71b58a365f7e8f919b1978f84a48ccc69786ddf54eb3f3af467a1f5aae
     name: proctor-service
@@ -138,11 +156,11 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-20T07:11:45.681176944Z"
+    created: "2020-01-15T03:56:51.59167596Z"
     description: A Helm chart for Kubernetes
     digest: 11617ea68efcf824c6239e90574029dfee5f261eeb3aeec03df4673213f4444c
     name: proctor-service
     urls:
     - https://gopaytech.github.io/proctor-helm-packages/proctor-service-0.1.0.tgz
     version: 0.1.0
-generated: "2019-11-20T07:11:45.679962945Z"
+generated: "2020-01-15T03:56:51.590779702Z"
